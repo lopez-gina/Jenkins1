@@ -1,1 +1,231 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T12:49:04.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="GgEwf3GvvpE4OiEAB9BJ" version="20.6.1" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-08T14:32:05.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gHmjt-Ch4paiIImoF5Wk" version="20.6.1" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="993" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Sender Bank Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="80" width="160" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="73" y="65" width="10" height="545" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-28" value="" style="swimlane;startSize=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="-60" y="240" width="735" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-32" value="Alt" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-28">
+          <mxGeometry x="-20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-43" value="[the sending money is not at the sender&#39;s currency]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-28">
+          <mxGeometry x="50" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Recipient Bank Account" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="80" width="130" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="60.73" y="441" width="10" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return ok the money is in your currency" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.28;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162.79999999999995" y="306.96000000000004" as="targetPoint" />
+            <mxPoint x="420" y="307" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="new" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="160" as="sourcePoint" />
+            <mxPoint x="360" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-10" value="ask the currency of the account" style="verticalAlign=bottom;endArrow=open;endSize=8;exitX=0.502;exitY=0.618;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630.73" y="526.76" as="targetPoint" />
+            <mxPoint x="425.99" y="526.76" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-1" value=":Transfer" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="130" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-1">
+          <mxGeometry x="60" y="70" width="10" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.833;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SX7-pG-MJhCquJmPbVDB-1" target="SX7-pG-MJhCquJmPbVDB-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="140" as="sourcePoint" />
+            <mxPoint x="200" y="162" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="140" />
+              <mxPoint x="130" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-13" value="checking if the money is in the senders currency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SX7-pG-MJhCquJmPbVDB-4">
+          <mxGeometry x="0.4368" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-29" value="" style="group" vertex="1" connectable="0" parent="SX7-pG-MJhCquJmPbVDB-1">
+          <mxGeometry x="47" y="620" width="36.21" height="26.21" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-30" value="" style="line;strokeWidth=2;html=1;rotation=45;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-29">
+          <mxGeometry x="-3.2319471223040708" y="10.016121877516765" width="42.67389424460815" height="6.177756244966471" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-31" value="" style="line;strokeWidth=2;html=1;rotation=-225;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-29">
+          <mxGeometry x="-3.2319471223040708" y="10.016121877516765" width="42.67389424460815" height="6.177756244966471" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-3" value="debit the money" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="222" as="sourcePoint" />
+            <mxPoint x="424.5" y="222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.48;exitY=0.903;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="641.03" y="571" as="sourcePoint" />
+            <mxPoint x="430.73" y="571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-6" value="sending the information of the currency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SX7-pG-MJhCquJmPbVDB-5">
+          <mxGeometry x="0.436" y="2" relative="1" as="geometry">
+            <mxPoint x="36" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.498;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425.23" y="648.3" as="sourcePoint" />
+            <mxPoint x="635.47" y="648.3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-12" value="sending money" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SX7-pG-MJhCquJmPbVDB-9">
+          <mxGeometry x="0.1729" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-10" value="return ok" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.68;exitY=0.245;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428.73" y="740" as="targetPoint" />
+            <mxPoint x="632.73" y="740.065" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425.73" y="611" as="sourcePoint" />
+            <mxPoint x="432.03" y="583.925" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="491.23" y="611" />
+              <mxPoint x="491.73" y="584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-14" value="checking if the money is in the recipient&#39;s currency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470.73247263854114" y="599.0043586901099" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-15" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="735" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-23" value="Opt" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-15">
+          <mxGeometry x="-20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.56;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="436" y="366" as="sourcePoint" />
+            <mxPoint x="431.5999999999999" y="331.64" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="496" y="366" />
+              <mxPoint x="496" y="331" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-25" value="Transforming the money to the sender&#39;s currency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SX7-pG-MJhCquJmPbVDB-24">
+          <mxGeometry x="0.4368" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-42" value="return ok you have the money" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.28;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.79999999999995" y="391.96000000000004" as="targetPoint" />
+            <mxPoint x="427" y="392" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-44" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="410" width="735" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-48" value="Alt" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-44">
+          <mxGeometry x="-20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-49" value="[not enough money in the account]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-44">
+          <mxGeometry x="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.56;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="437" y="463" as="sourcePoint" />
+            <mxPoint x="432.5999999999999" y="428.64" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="497" y="463" />
+              <mxPoint x="497" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-51" value="Transforming the money to the sender&#39;s currency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SX7-pG-MJhCquJmPbVDB-50">
+          <mxGeometry x="0.4368" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-52" value="transaction canceled" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.28;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170.79999999999995" y="477.96000000000004" as="targetPoint" />
+            <mxPoint x="428" y="478" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="407" y="470" width="36.21" height="26.21" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-16" value="" style="line;strokeWidth=2;html=1;rotation=45;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-18">
+          <mxGeometry x="-3.2319471223040708" y="10.016121877516765" width="42.67389424460815" height="6.177756244966471" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-17" value="" style="line;strokeWidth=2;html=1;rotation=-225;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-18">
+          <mxGeometry x="-3.2319471223040708" y="10.016121877516765" width="42.67389424460815" height="6.177756244966471" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-59" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="620" width="760" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-60" value="Opt" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-59">
+          <mxGeometry x="-20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-61" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="670" width="760" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-62" value="Alt" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-61">
+          <mxGeometry x="-20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-65" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.498;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SX7-pG-MJhCquJmPbVDB-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395.0000000000002" y="40" as="sourcePoint" />
+            <mxPoint x="605.24" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-66" value="sending money" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SX7-pG-MJhCquJmPbVDB-65">
+          <mxGeometry x="0.1729" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-67" value="[the sending money is not at the recipient&#39;s currency]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SX7-pG-MJhCquJmPbVDB-61">
+          <mxGeometry x="35" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.73000000000025" y="702" as="sourcePoint" />
+            <mxPoint x="430.03" y="674.9249999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="489.23" y="702" />
+              <mxPoint x="489.73" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SX7-pG-MJhCquJmPbVDB-64" value="converting the money to recipient&#39;s currency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470.73247263854114" y="690.0043586901099" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
